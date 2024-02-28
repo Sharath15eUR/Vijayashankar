@@ -1,0 +1,5 @@
+The pointer Expression to denote the array element a[i][j][k][2] is   *(*(*(*(a + i) + j) + k) + 2).
+
+The expression *(*(a + i) + j) + k) will move to the ith element in the first dimension, jth element in the second dimension and kth element in the third dimension.
+
+The +2 will move you to the 2nd index of that element.

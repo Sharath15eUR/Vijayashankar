@@ -1,0 +1,3 @@
+Output:-
+
+Size of Structure = 8
