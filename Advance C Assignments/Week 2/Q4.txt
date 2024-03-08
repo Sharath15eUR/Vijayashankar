@@ -1,0 +1,5 @@
+1. Enqueue() - Insertion of elements to the queue.
+2. Dequeue() - Removal of elements from the queue.
+3. Peek() - Acquires the data element available at the front node of the queue without deleting it.
+4. isFull() - Validates if the queue is full.
+5. isNull() - Checks if the queue is empty.
