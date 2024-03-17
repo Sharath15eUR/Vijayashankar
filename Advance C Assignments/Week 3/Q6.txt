@@ -1,0 +1,14 @@
+Q. How to avoid Race conditions and deadlocks? 
+
+	ANS.
+
+	Employ synchronization mechanisms such as mutexes, semaphores, and condition variables to control access to shared resources.
+	
+	Mutexes ensure that only one thread can access a shared resource at a time, preventing race conditions.
+	
+	Semaphores can be used to control access to a pool of resources, limiting the number of threads that can access them 	simultaneously.
+	
+	Condition variables allow threads to wait for a certain condition to become true before proceeding.
+	
+	Establish a locking hierarchy to prevent deadlock situations where threads wait indefinitely for resources held by other threads.
+

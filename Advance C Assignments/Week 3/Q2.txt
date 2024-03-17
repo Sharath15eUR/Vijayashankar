@@ -1,0 +1,21 @@
+Q. List the gdb commands for the following operations  
+
+1)To run the current executable file
+   
+	Ans. “run” command is used to start the program within gdb allowing us to debug it as needed.
+
+2)To create breakpoints
+    
+	Ans. “break” command is used to create breakpoints in gdb. 
+
+3)To resume execution once after breakpoint
+   
+	Ans. “continue” command is used to resume execution after breakpoint.
+
+4)To clear break point created for a function
+    
+	Ans. “clear <function_name>" command is used to clear a break point created for a function.
+ 
+5)Print the parameters of the function in the backtrace
+  
+	Ans. “bt full” command is used to print the parameters of the function in the backtrace.

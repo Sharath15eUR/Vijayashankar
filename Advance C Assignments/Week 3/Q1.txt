@@ -1,0 +1,17 @@
+Q. Which signals are triggered, when the following actions are performed.
+
+1) user press ctrl+C
+
+	Ans. When "Ctrl+c" is pressed a signal called "SIGINT" (Interrrupt Signal) is sent to interrupt the running process.
+
+2) kill() system call is invoked
+
+	Ans. When "kill()" system call is used a "SIGKILL" (Kill Signal) is sent and the running process is immediately terminated.
+
+3) CPU tries to execute an illegal instruction
+
+	Ans. A signal called "SIGILL" (Illegal Instruction Signal) is raised when the CPU attempts to execute an illegal, malformed, or 	privileged instruction. It indicates a serious problem with the program or the system.
+
+4) Program accesses unassigned memory
+
+	Ans. When a program attempts to access memory that is not allocated to it (such as accessing beyond the bounds of an array or 	dereferencing a null pointer), the operating system sends a "SIGSEGV" (Segmentation Violation Signal) signal to the process. This 	signal typically results in the termination of the offending process.

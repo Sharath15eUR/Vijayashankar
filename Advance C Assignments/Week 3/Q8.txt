@@ -1,0 +1,9 @@
+Q. What is the difference between process and threads?
+
+Process:
+   
+	A process is an instance of a running program. Each process has its own memory space, containing the program code, data, and 	stack. Processes are independent entities and are isolated from each other. They cannot directly access the memory of other 	processes without using inter-process communication mechanisms.
+
+Thread:
+
+	A thread is a lightweight unit of execution within a process. Threads share the same memory space as their parent process. They 	have access to the same memory addresses, data, and resources within the process. Threads within the same process can communicate 	with each other directly using shared memory or other synchronization mechanisms. Threads share the same resources such as file 	descriptors, open files, and signal handlers within the process.
