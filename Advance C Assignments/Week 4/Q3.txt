@@ -1,0 +1,4 @@
+Q3. What is Datagram Socket ?  
+
+Ans:-
+	Datagram socket is a type of socket that allows processes to use the User Datagram Protocol (UDP). It is a two-way flow of communication or messages. It can receive messages in a different order from the sending way and also can receive duplicate messages. These sockets are preserved with their boundaries. The socket type of datagram socket is SOCK_DGRAM.

@@ -1,0 +1,22 @@
+Q1) Explain the connection procedure followed in client server communication
+
+	Ans :-
+		Client Initialization: Client initiates by creating a socket and specifying the server's IP address and port.
+
+Server Setup: Server prepares by creating a socket and binding it to a specific port, then listens for incoming connections.
+
+Client Request: Client sends a connection request to the server.
+
+Server Acceptance: Server accepts the connection request, creating a new socket dedicated to this client.
+
+Connection Establishment: Client and server establish a connection via their respective sockets.
+
+Data Transfer: Communication occurs between client and server, with data being exchanged as needed.
+
+Connection Termination: Either party can initiate the termination process, signaling the end of the communication session.
+
+
+
+
+
+
